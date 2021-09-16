@@ -1,0 +1,21 @@
+{
+  "name": "Create React App Sample",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "create-react-app extensions",
+  "icons": {
+    "128": "logo192.png"
+  },
+  "permissions": [],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "logo192.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "index.html"
+}
